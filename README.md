@@ -3,6 +3,8 @@
 
 - 🔭 I’m currently working on [Soy Tu Masajista](https://github.com/romajavi/stm43050.git)
 
+- 🔭 Este proyecto corresponde a una pagina de servicio profesional de masajes de un amigo.
+
 - 🌱 I’m currently learning **.html, .css, frameworks, etc**
 
 - 📫 How to reach me **gonzalez.roman21@gmail.com**
