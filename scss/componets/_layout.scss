@@ -1,0 +1,222 @@
+//*INDEX/**
+
+.subtitulos{
+    font-size: x-large;
+}
+.section2index{
+    padding: 20px;
+}
+.section2contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2video{
+    iframe{
+        border-radius: 10px;
+}
+}
+.section3index{
+    padding: 20px;
+}
+.section3contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3mapa{
+    iframe{
+        border-radius: 10px;
+} 
+}
+.section3texto{
+    padding: 20px;
+    text-align:justify;
+}
+.section3index{
+    div{
+        h2{
+            text-align: end;
+        }
+    }
+}
+
+//*SERVICIOS/**
+
+.contenedorservicios{
+    display: flex;
+    background-color: $color1;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+.textoservicios{
+    padding: 20px;
+    color: $color2;
+    font-size: x-large;
+}
+.textoservicios{
+    h3{
+        margin-bottom: 5px;
+    } 
+}
+.textoservicios {
+    line-height: 40px;
+}
+
+.imagenservicios{
+    img{
+    border-radius: 10px; 
+}
+}
+
+//*TU MASAJISTA/**
+
+.tumasajistatitulo{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+.tumasajistaparrafo1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    line-height: 2em
+
+}
+.tumasajistaparrafo2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+.grid-galeria{
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 1rem;
+}
+.grid-galeria{
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;  
+        border: 1px solid $color1;
+
+}
+}
+.grid-galeria-item1{
+    grid-row: 1 / 3;
+}
+
+.grid-galeria-item3{
+    grid-column: 3 / 5;
+}
+.grid-galeria-item4{
+    grid-row: 2 / 4;
+}
+.grid-galeria-item8{
+    grid-column: 3 / 5;
+}
+
+//*TU PROMOCIONES/**
+
+/* 1ERA SECTION PROMOCIONES*/
+
+.contenedorpromociones1{
+    background-color: $color2;
+    padding: 50px;
+}
+.textopromociones{
+    color: $color1;
+    text-align: center;
+    font-size: larger;
+}
+
+.textopromociones{
+    li{
+        text-align: justify;
+        padding-top: 15px;
+}
+}
+
+/* 2DA SECTION PROMOCIONES*/
+.contenedorpromociones2{
+    display: flex;
+}
+.titulopromociones{
+    padding: 30px;
+}
+section{
+    h3 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px; 
+}
+}
+.contenedorpromociones2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorpromociones2{
+    div {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid $color1;
+    text-align: center;
+}
+}
+.contenedorpromociones2{
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px; 
+} 
+}
+.contenedorpromociones2{
+    h4 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px; 
+}
+}
+.contenedorpromociones2{
+    p {
+    font-size: 16px;
+    line-height: 1.5; 
+}
+}
+
+//*RESERVA DE TURNO/**
+
+.turno{
+    align-items: center;
+    padding: 30px;
+    background-image: url(../img/fondo13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.turnomapa{
+    display: flex;
+    justify-content: center;
+    background-color: $color1;
+    background-attachment: fixed;
+}
+.turnomapa{
+    iframe{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    }
+}

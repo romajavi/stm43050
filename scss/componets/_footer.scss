@@ -1,0 +1,42 @@
+.linkfooter{
+    display: flex;
+    background-color: $color2;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: $color1;
+        font-size: x-large;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    &:hover{
+        color: $color3;
+    }
+        p{
+        &:hover{
+            transform: scale(1.05);
+        }
+        }
+    }
+}
+
+.columnafooter{
+    display: flex;
+    justify-content: center;
+    background-color: $color1;
+    padding: 10px;
+    font-size: small;
+    div{
+        padding: 5px;
+       h2{
+        font-size: small;
+       }
+    }
+}
+
+.copyrightfooter{
+    display: flex;
+    background-color: $color2;
+    color: $color1;
+    margin: auto;
+    justify-content: center;
+}

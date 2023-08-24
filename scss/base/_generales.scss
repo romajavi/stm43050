@@ -1,0 +1,58 @@
+/**TIPOGRAFIA**/
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap');
+
+/**RESTET**/
+
+*{
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/** BOTON RESERVA**/
+
+.botonreserva{
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: $color5;
+    color: $color4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.botonreserva{
+    &:hover{
+        background-color: $color1;
+        color: $color2;
+        scale: 1.03;
+        transition: color 0.3s ease;
+    }
+}
+
+
+.botonpromociones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/** STYKY WHATASPP**/
+
+.stickywhatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.stickywhatsapp{
+    img{
+        width: 60px;
+        height: auto;
+    }
+}
