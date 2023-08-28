@@ -2,9 +2,9 @@ header{
     background-color: $color1;
     flex-wrap: wrap;
     position: sticky;
-    z-index: 1;
+    z-index: 2;
     top: 0;
-    padding: 20px;
+    padding: 10px;
     div{
         div{
             a{
@@ -20,7 +20,7 @@ header{
                 a{
                     text-decoration: none;
                     color: $color2;
-                    font-size: 20px;
+                    font-size: larger;
                     font-weight: 200;
                     font-weight: bold;
                     &:hover{
@@ -36,7 +36,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
 }
 .logo{
     width: 250px;
