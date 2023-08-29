@@ -134,12 +134,6 @@ h2 {
   .textoservicios p {
     font-size: small; } }
 
-@media (min-width: 600px) {
-  .wide {
-    grid-column: span 2; }
-  .tall {
-    grid-row: span 2; } }
-
 @media screen and (max-width: 450px) {
   .grid-galeria {
     max-width: 100%;
@@ -314,34 +308,6 @@ header {
   gap: 20px;
   padding: 20px;
   grid-auto-flow: dense; }
-
-.griditem {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: round;
-  background-color: #03afff;
-  border-radius: 4px;
-  transition: transform 0.3s ease-in-out;
-  border-radius: 10px;
-  border: 1px solid #e2e0da; }
-
-.griditem img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  border: 1px solid #e2e0da; }
-
-.wide {
-  grid-column: span 2; }
-
-.tall {
-  grid-row: span 2; }
-
-.griditem:hover {
-  filter: opacity(0.9);
-  transform: scale(1.04); }
 
 .grid-galeria {
   max-width: 90%;

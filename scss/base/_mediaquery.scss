@@ -143,18 +143,6 @@
 }
 
 
-
-@media (min-width: 600px) {
-    .wide {
-        grid-column: span 2;
-    }
-    .tall {
-        grid-row: span 2;
-    }
-}
-
-
-
 @media screen and (max-width: 450px) {
     .grid-galeria {
         max-width: 100%;

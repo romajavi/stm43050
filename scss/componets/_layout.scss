@@ -110,55 +110,6 @@
     grid-auto-flow: dense;
 }
 
-.griditem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    // background-size: cover;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    background-repeat: round;
-
-    background-color: #03afff;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-
-    border-radius: 10px;  
-    border: 1px solid $color1;
-}
-
-.griditem{
-    img{
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;  
-        border: 1px solid $color1;
-    }
-}
-
-.wide{
-    grid-column: span 2;
-}
-
-.tall{
-    grid-row: span 2;
-}
-
-.griditem:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-
-
-
-
-
-
-
-
 .grid-galeria{
     max-width: 90%;
     padding: 1rem;
