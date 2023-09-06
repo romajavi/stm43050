@@ -15,7 +15,7 @@
 .botonreserva{
     display: inline-block;
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: nth($font-size, 3);
     text-decoration: none;
     background-color: $color5;
     color: $color4;
@@ -36,9 +36,8 @@
 
 
 .botonpromociones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
+    @include flex(flex, center, center);
     padding: 10px;
 }
 
@@ -56,3 +55,4 @@
         height: auto;
     }
 }
+

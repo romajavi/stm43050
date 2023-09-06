@@ -5,12 +5,6 @@ header{
     z-index: 2;
     top: 0;
     padding: 10px;
-    div{
-        div{
-            a{
-            }
-        }
-    }
     nav{
         ul{
             list-style: none;
@@ -20,7 +14,7 @@ header{
                 a{
                     text-decoration: none;
                     color: $color2;
-                    font-size: larger;
+                    font-size: nth($font-size, 4);
                     font-weight: 200;
                     font-weight: bold;
                     &:hover{
@@ -33,11 +27,10 @@ header{
     }
 }
 .contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex(flex, space-between, center);
     padding: 5px;
 }
+
 .logo{
     width: 250px;
     height: auto;

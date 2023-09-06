@@ -1,16 +1,15 @@
 //*INDEX/**
 
 .subtitulos{
-    font-size: x-large;
+    font-size: nth($font-size, 5);
 }
 .section2index{
     padding: 20px;
 }
 
 .section2contenido{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
+    @include flex(flex, center, center);
 }
 .section2video{
     iframe{
@@ -21,9 +20,8 @@
     padding: 20px;
 }
 .section3contenido{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
+    @include flex(flex, center, center);
 }
 
 .section3mapa{
@@ -46,16 +44,13 @@
 //*SERVICIOS/**
 
 .contenedorservicios{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-    border-radius: 10px;
+    @extend %flex;
+    @include flex(flex, center, center);
 }
 .textoservicios{
     padding: 20px;
     color: $color2;
-    font-size: x-large;
+    font-size: nth($font-size, 4);
 }
 .textoservicios{
     h3{
@@ -75,30 +70,21 @@
 //*TU MASAJISTA/**
 
 .tumasajistatitulo{
-    display: flex;
-    padding: 30px;
-    justify-content: center;
+    @extend %flex;
+    @include flex(flex, center, center);
 }
 .tumasajistaparrafo1{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    text-align: center;
-    line-height: 2em
-
+    @extend %flex;
+    @include flex(flex, center, center);
 }
 .tumasajistaparrafo2{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    text-align: center;
+    @extend %flex;
+    @include flex(flex, center, center);
 }
 
 
 .contenedorgrid {
-    background-color: #282c34;
-    font-family: sans-serif;
-    font-size: 3rem;
+    font-size: nth($font-size, 4);
 }
 
 .contenedorgrid{
@@ -154,7 +140,7 @@
 .textopromociones{
     color: $color1;
     text-align: center;
-    font-size: larger;
+    font-size: nth($font-size, 4);
 }
 
 .textopromociones{
@@ -174,16 +160,15 @@
 section{
     h3 {
         text-align: center;
-        font-size: 24px;
+        font-size: nth($font-size, 5);
         margin-bottom: 20px; 
 }
 }
 .contenedorpromociones2{
-    display: flex;
+    @include flex(flex, center, center);
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
+
 .contenedorpromociones2{
     div {
     width: 300px;
@@ -202,14 +187,14 @@ section{
 }
 .contenedorpromociones2{
     h4 {
-        font-size: 20px;
+        font-size: nth($font-size, 4);
         margin-top: 10px;
         margin-bottom: 5px; 
 }
 }
 .contenedorpromociones2{
     p {
-    font-size: 16px;
+    font-size: nth($font-size, 3);
     line-height: 1.5; 
 }
 }

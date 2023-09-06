@@ -20,23 +20,21 @@
 }
 
 .columnafooter{
-    display: flex;
-    justify-content: center;
+    @include flex(flex, center, center);
     background-color: $color1;
     padding: 10px;
-    font-size: small;
+    font-size: nth($font-size, 2);
     div{
         padding: 5px;
-       h2{
-        font-size: small;
-       }
+        h2{
+        font-size: nth($font-size, 2);
+    }
     }
 }
 
 .copyrightfooter{
-    display: flex;
+    @include flex(flex, center, center);
     background-color: $color2;
     color: $color1;
     margin: auto;
-    justify-content: center;
 }

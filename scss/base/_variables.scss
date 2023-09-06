@@ -4,32 +4,29 @@ $color1: #e2e0da;
 $color2: #6b6b6b;
 $color3: #f29511;
 $color4: whitesmoke;
-$color5: #c49463
+$color5: #c49463;
 
 
+%flex{
+    padding: 50px;
+    border-radius: 10px;
+}
 
+$font-size:
+10px,
+12px,
+16px,
+20px,
+24px,
+30px;
 
-// $font-size: 12px,
-// 16px,
-// 20px,
-// 24px,
-// 30px;
-
-// h1{
 // font-size: nth($font-size, 5);
-// }
 
-// //*BOTONES/**
+@mixin flex($flex, $justity, $align){
+    display: $flex;
+    justify-content: $justity;
+    align-items: $align;
+}
 
-// $botonreserva:(
-// bc-boton: $color5,
-// border-boton: 4px solid $color1,
-// colortex-boton: $color4,
-// );
-
-// .botonreserva{
-//     background-color: map-get($botonreserva, bc-boton);
-//     border: map-get($botonreserva, border-boton);
-//     color: map-get($botonreserva, colortex-boton);
-// }
+// @include flex(flex, center, center);
 
