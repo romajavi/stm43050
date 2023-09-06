@@ -230,7 +230,8 @@ header {
   margin: auto; }
 
 .subtitulos {
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: left; }
 
 .section2index {
   padding: 20px; }

@@ -2,6 +2,7 @@
 
 .subtitulos{
     font-size: nth($font-size, 5);
+    text-align: left;
 }
 .section2index{
     padding: 20px;
@@ -23,6 +24,7 @@
     @extend %flex;
     @include flex(flex, center, center);
 }
+
 
 .section3mapa{
     iframe{
